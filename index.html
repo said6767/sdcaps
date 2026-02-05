@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>SDKaps</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #111;
+            color: white;
+            text-align: center;
+        }
+        header {
+            background: linear-gradient(90deg, black, gray, silver);
+            padding: 20px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 40px;
+        }
+        .info {
+            margin: 20px;
+            font-size: 18px;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .card {
+            background: #222;
+            padding: 15px;
+            border-radius: 10px;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .price {
+            color: silver;
+            font-size: 20px;
+            margin: 10px 0;
+        }
+        .buy {
+            display: inline-block;
+            padding: 10px 15px;
+            background: silver;
+            color: black;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        footer {
+            margin-top: 30px;
+            padding: 15px;
+            background: #000;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>SDKaps</h1>
+    <p>Gorras premium</p>
+</header>
+
+<div class="info">
+    <p>🚚 Envíos a todo Monterrey</p>
+    <p>📍 Entregas personales disponibles</p>
+    <p>📩 Contacto: sdkaps@gmail.com</p>
+</div>
+
+<section class="products">
+    <!-- 13 productos -->
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1521369909029-2afed882baee" alt="Gorra">
+        <h3>SDKaps Negra</h3>
+        <p class="price">$500 MXN</p>
+        <a class="buy" href="https://wa.me/528100000000">Comprar</a>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1503341504253-dff4815485f1" alt="Gorra">
+        <h3>SDKaps Gris</h3>
+        <p class="price">$520 MXN</p>
+        <a class="buy" href="https://wa.me/528100000000">Comprar</a>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1516826957135-700dedea698c" alt="Gorra">
+        <h3>SDKaps Plateada</h3>
+        <p class="price">$550 MXN</p>
+        <a class="buy" href="https://wa.me/528100000000">Comprar</a>
+    </div>
+
+    <!-- Productos extra -->
+    <!-- Copias para completar 13 -->
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1585386959984-a4155224a1ad" alt="Gorra">
+        <h3>SDKaps Urban</h3>
+        <p class="price">$580 MXN</p>
+        <a class="buy" href="https://wa.me/528100000000">Comprar</a>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1602810316693-3667c854239a" alt="Gorra">
+        <h3>SDKaps Classic</h3>
+        <p class="price">$600 MXN</p>
+        <a class="buy" href="https://wa.me/528100000000">Comprar</a>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1593032465171-8f0c0d8a1b10" alt="Gorra">
+        <h3>SDKaps Street</h3>
+        <p class="price">$620 MXN</p>
+        <a class="buy" href="https://wa.me/528100000000">Comprar</a>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1520975922284-8b456906c813" alt="Gorra">
+        <h3>SDKaps Dark</h3>
+        <p class="price">$640 MXN</p>
+        <a class="buy" href="https://wa.me/528100000000">Comprar</a>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1534215754734-18e55d13e346" alt="Gorra">
+        <h3>SDKaps Silver Pro</h3>
+        <p class="price">$660 MXN</p>
+        <a class="buy" href="https://wa.me/528100000000">Comprar</a>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1520974735194-6c2f42f7d0d4" alt="Gorra">
+        <h3>SDKaps Premium</h3>
+        <p class="price">$680 MXN</p>
+        <a class="buy" href="https://wa.me/528100000000">Comprar</a>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1520974735194-6c2f42f7d0d4" alt="Gorra">
+        <h3>SDKaps Edition</h3>
+        <p class="price">$700 MXN</p>
+        <a class="buy" href="https://wa.me/528100000000">Comprar</a>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1521369909029-2afed882baee" alt="Gorra">
+        <h3>SDKaps Limited</h3>
+        <p class="price">$720 MXN</p>
+        <a class="buy" href="https://wa.me/528100000000">Comprar</a>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1503341504253-dff4815485f1" alt="Gorra">
+        <h3>SDKaps Pro</h3>
+        <p class="price">$750 MXN</p>
+        <a class="buy" href="https://wa.me/528100000000">Comprar</a>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1516826957135-700dedea698c" alt="Gorra">
+        <h3>SDKaps Elite</h3>
+        <p class="price">$800 MXN</p>
+        <a class="buy" href="https://wa.me/528100000000">Comprar</a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 SDKaps - Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html><a class="btn" href="https://wa.me/528123456789?text=Hola,%20quiero%20comprar%20la%20gorra%20SDKaps%20Negra" target="_blank">
+  Comprar por WhatsApp
+</a>
+<a href="https://wa.me/528123456789" class="whatsapp-float" target="_blank">WhatsApp</a>
+
+<style>
+.whatsapp-float{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+}
+</style>
+<a href="https://wa.me/528123456789" class="whatsapp-float" target="_blank">WhatsApp</a>
+
+<style>
+.whatsapp-float{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+}
+</style>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>SDKaps</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #111;
+      color: white;
+    }
+    header {
+      background: black;
+      padding: 20px;
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+    .info {
+      text-align: center;
+      padding: 10px;
+      background: #222;
+    }
+    .productos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .producto {
+      background: #1a1a1a;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .producto img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background: silver;
+      color: black;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .btn:hover {
+      background: white;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: black;
+      margin-top: 20px;
+    }
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      color: white;
+      padding: 15px 20px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<header>SDKaps</header>
+
+<div class="info">
+  Envíos a todo Monterrey • Entregas personales disponibles
+</div>
+
+<section class="productos">
+
+  <!-- 13 productos -->
+  <!-- Solo cambia las imágenes cuando tengas fotos reales -->
+
+  <div class="producto">
+    <img src="https://via.placeholder.com/300x200" alt="Gorra 1">
+    <h3>SDKaps Negra</h3>
+    <p>$500 MXN</p>
+    <a class="btn" href="https://wa.me/528123218910?text=Hola,%20quiero%20la%20SDKaps%20Negra" target="_blank">Comprar</a>
+  </div>
+
+  <div class="producto">
+    <img src="https://via.placeholder.com/300x200" alt="Gorra 2">
+    <h3>SDKaps Gris</h3>
+    <p>$520 MXN</p>
+    <a class="btn" href="https://wa.me/528123218910?text=Hola,%20quiero%20la%20SDKaps%20Gris" target="_blank">Comprar</a>
+  </div>
+
+  <div class="producto">
+    <img src="https://via.placeholder.com/300x200" alt="Gorra 3">
+    <h3>SDKaps Plateada</h3>
+    <p>$550 MXN</p>
+    <a class="btn" href="https://wa.me/528123218910?text=Hola,%20quiero%20la%20SDKaps%20Plateada" target="_blank">Comprar</a>
+  </div>
+
+  <!-- Repetidos para completar 13 productos -->
+
+  <div class="producto">
+    <img src="https://via.placeholder.com/300x200">
+    <h3>SDKaps Urban</h3>
+    <p>$580 MXN</p>
+    <a class="btn" href="https://wa.me/528123218910?text=Hola,%20quiero%20la%20SDKaps%20Urban" target="_blank">Comprar</a>
+  </div>
+
+  <div class="producto">
+    <img src="https://via.placeholder.com/300x200">
+    <h3>SDKaps Classic</h3>
+    <p>$600 MXN</p>
+    <a class="btn" href="https://wa.me/528123218910?text=Hola,%20quiero%20la%20SDKaps%20Classic" target="_blank">Comprar</a>
+  </div>
+
+  <div class="producto">
+    <img src="https://via.placeholder.com/300x200">
+    <h3>SDKaps Shadow</h3>
+    <p>$520 MXN</p>
+    <a class="btn" href="https://wa.me/528123218910?text=Hola,%20quiero%20la%20SDKaps%20Shadow" target="_blank">Comprar</a>
+  </div>
+
+  <div class="producto">
+    <img src="https://via.placeholder.com/300x200">
+    <h3>SDKaps Silver Line</h3>
+    <p>$650 MXN</p>
+    <a class="btn" href="https://wa.me/528123218910?text=Hola,%20quiero%20la%20SDKaps%20Silver%20Line" target="_blank">Comprar</a>
+  </div>
+
+  <div class="producto">
+    <img src="https://via.placeholder.com/300x200">
+    <h3>SDKaps Dark Pro</h3>
+    <p>$700 MXN</p>
+    <a class="btn" href="https://wa.me/528123218910?text=Hola,%20quiero%20la%20SDKaps%20Dark%20Pro" target="_blank">Comprar</a>
+  </div>
+
+  <div class="producto">
+    <img src="https://via.placeholder.com/300x200">
+    <h3>SDKaps Street</h3>
+    <p>$560 MXN</p>
+    <a class="btn" href="https://wa.me/528123218910?text=Hola,%20quiero%20la%20SDKaps%20Street" target="_blank">Comprar</a>
+  </div>
+
+  <div class="producto">
+    <img src="https://via.placeholder.com/300x200">
+    <h3>SDKaps Limited</h3>
+    <p>$750 MXN</p>
+    <a class="btn" href="https://wa.me/528123218910?text=Hola,%20quiero%20la%20SDKaps%20Limited" target="_blank">Comprar</a>
+  </div>
+
+  <div class="producto">
+    <img src="https://via.placeholder.com/300x200">
+    <h3>SDKaps Elite</h3>
+    <p>$800 MXN</p>
+    <a class="btn" href="https://wa.me/528123218910?text=Hola,%20quiero%20la%20SDKaps%20Elite" target="_blank">Comprar</a>
+  </div>
+
+  <div class="producto">
+    <img src="https://via.placeholder.com/300x200">
+    <h3>SDKaps Carbon</h3>
+    <p>$620 MXN</p>
+    <a class="btn" href="https://wa.me/528123218910?text=Hola,%20quiero%20la%20SDKaps%20Carbon" target="_blank">Comprar</a>
+  </div>
+
+</section>
+
+<footer>
+  © 2026 SDKaps - Todos los derechos reservados
+</footer>
+
+<a href="https://wa.me/528123218910" class="whatsapp-float" target="_blank">
+  WhatsApp
+</a>
+
+</body>
+</html>
